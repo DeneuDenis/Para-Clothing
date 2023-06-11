@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# Para-Clothing
+This project consists of creating a functional online store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Group 35
 
-## Available Scripts
+Daniel Afonso Borges dos Santos nUSP 12608581
 
-In the project directory, you can run:
+## 1 Requirements
+The system must have 2 types of users: Clients, Event Administrators (Sellers).
 
-### `npm start`
+Event Administrators are responsible for registering events and managing events created by them.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Customers are users who access the system to buy event tickets.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Each event admin record includes, at least: name, id, phone, email and password.
 
-### `npm test`
+Each customer's record includes, at least: name, id, phone, email and password.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Event records include, at least: name, id, photo, description, price, quantity (in stock), location, date.
 
-### `npm run build`
+Selling Event Tickets: Events are selected, their quantity chosen, and are included in a cart. Tickets are purchased using a credit card number (any number is accepted by the system). The quantity of ticket sold is subtracted from the quantity in stock and added to the quantity sold. Carts are emptied only on payment or by customers.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Event Management: Event Administrators can create/update/read/delete (crud) new events. For example, they can change the quantity in stock.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Customers must be able to transfer ticket between accounts (Specific Functionality).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Each Ticket from an Event Purchase generates a custom QR Code containing the ticket information. This QR Code is used to validate the ticket. (Specific Functionality)
 
-### `npm run eject`
+The system must provide accessibility requirements and provide good usability.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The system must be responsive.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 2 Project Description
+Para Clothing is a website for an online clothing store. Clients can login to use saved payment informations and admins can use the system to update stock and add new clothes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 2.1 Mockups
+System mockups can be found on [Figma](https://www.figma.com/file/YBPxkVqP2wwhZdSkiORqki/Para-Clothing?type=design&t=gUSDNbVm6pWNIKPL-0)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 2.2 Navigation Diagram
+![image](https://user-images.githubusercontent.com/68250033/236710200-be3761ca-ec34-4316-a998-c028a6499881.png)
