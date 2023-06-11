@@ -8,7 +8,7 @@ import AllProducts from './allProducts';
 import NotYet from './notYet';
 import Congrats from './Congrats';
 import Register from './Register';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
+import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom/cjs/react-router-dom.min';
 
 function App() {
   return (
@@ -38,6 +38,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register/>
+          </Route>
+          <Route path="">
+            <Redirect to ="/home"></Redirect>
           </Route>
         </Switch>
       </div>
