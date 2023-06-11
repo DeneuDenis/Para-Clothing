@@ -1,0 +1,65 @@
+.criarConta {
+
+    color: var(--white);
+    font-family: var(--font-family-poppins);
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 36px;
+    min-width: 71px;
+    background: none;
+    cursor: pointer;
+    border: none;
+
+}
+
+.registerTitle {
+
+    color: #323232;
+    font-family: var(--font-family-poppins);
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    min-height: 1px;
+    min-width: 60px;
+    position: relative;
+    left: 110px;
+    top: 20px;
+
+}
+
+.loginBack {
+
+    position: relative;
+    left: 60%;
+    color: rgba(20, 115, 230, 1);
+
+}
+
+.info {
+
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+    font-family: var(--font-family-poppins);
+    top: 60px;
+    padding-top: 5px;
+
+}
+
+.container {
+
+    align-self: center;
+    background-color: white;
+    border: 1px solid;
+    border-color: rgba(20, 115, 230, 1);
+    border-radius: 10px;
+    height: 54px;
+    width: 420px;
+    position: relative;
+    top: 60px;
+    margin: 5px;
+
+}

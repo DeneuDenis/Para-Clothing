@@ -1,0 +1,186 @@
+.cartPage {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+
+.yourCart {
+
+    position: absolute;
+    left: 4.86%;
+    right: 80.56%;
+    top: 11.33%;
+    bottom: 83.98%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #505050;
+
+}
+
+.price {
+
+    position: absolute;
+    left: 73.4%;
+    right: 20.14%;
+    top: 11.33%;
+    bottom: 83.98%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #505050;
+
+}
+
+.productRectangle {
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 4.86%;
+    right: 4.86%;
+    top: 17.58%;
+    bottom: 72.27%;
+
+    background: #FFFFFF;
+
+    border: 1px solid #505050;
+    border-radius: 10px;
+
+}
+
+.productId {
+
+    position: absolute;
+    left: 7.57%;
+    right: 91.53%;
+    top: 20.31%;
+    bottom: 75%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.productName {
+
+    position: absolute;
+    left: 12.5%;
+    right: 67.78%;
+    top: 20.31%;
+    bottom: 75%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #1473E6;
+
+}
+
+.productPrice {
+
+    position: absolute;
+    left: 73.4%;
+    right: 18.54%;
+    top: 20.31%;
+    bottom: 75%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #505050;
+
+}
+
+.quantityWrapper {
+
+    height: 44px;
+    width: 61px;
+    left: 1280px;
+    top: 210px;
+    border-radius: 0px;
+
+    position: absolute;
+    left: 88.89%;
+    right: 6.88%;
+    top: 20.51%;
+    bottom: 75.2%;
+
+    background: #F4EFEF;
+
+}
+
+.quantity {
+
+    position: relative;
+    left: 43%;
+    top: 0%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #000000;
+
+}
+
+.endWrapper {
+
+    position: absolute;
+    left: 73.61%;
+    right: 4.86%;
+    top: 80.08%;
+    bottom: 11.33%;
+
+    background: #2A179E;
+    border-radius: 20px;
+
+}
+
+.endWrapper:hover {
+
+    transform: scale(1.02);
+
+}
+
+.endBtn {
+
+    position: absolute;
+    left: 33.51%;
+    top: 30.03%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+
+    color: #FFFFFF;
+
+}

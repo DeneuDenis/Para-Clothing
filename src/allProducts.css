@@ -1,0 +1,137 @@
+.allProductsPage {
+
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.productsTitle {
+
+    position: absolute;
+    left: 4.93%;
+    right: 87.29%;
+    top: 10.55%;
+    bottom: 85.94%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+
+    color: #505050;
+
+}
+
+.searchIcon {
+
+    position: absolute;
+    left: 37%;
+    bottom: 81.42%;
+    height: 25px;
+
+    color: #505050;
+
+} 
+
+.searchBar input {
+
+    padding-right: 40px;
+    padding-left: 18px;
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 4.93%;
+    right: 50.62%;
+    top: 14.65%;
+    bottom: 80.08%;
+
+    background: #FFFFFF;
+
+    border: 1px solid #505050;
+    border-radius: 10px;   
+    height: 54px;
+    width: 640px;
+
+}
+
+.filterWrapper {
+
+    position: absolute;
+    left: 39.69%;
+    top: 14.65%;
+
+    width: 200px;
+    height: 54px;
+
+    background: #18F2B2;
+    border-radius: 10px;
+
+}
+
+.filterWrapper:hover {
+
+    transform: scale(1.04);
+
+}
+
+.filterBtn {
+
+    position: absolute;
+    left: 33.35%;
+    top: 17.53%;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    cursor: pointer;
+
+    color: #FFFFFF;
+
+}
+
+.productHolder {
+
+    width: 420px;
+    height: 208px;
+    position: absolute;
+    left: 4.93%;
+    top: 23%;
+
+    background: #ffffff;
+    border-radius: 6px;
+
+}
+
+.productHolder:hover {
+
+    transform: scale(1.02);
+
+}
+
+.cartIcon {
+
+    color: black;
+    height: 20px;
+
+}
+
+.cartIcon:hover {
+
+    color: blue;
+
+}
+
+#addToCart {
+
+    right: 0;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+
+}

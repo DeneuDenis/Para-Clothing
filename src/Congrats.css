@@ -1,0 +1,19 @@
+.congratsCard {
+
+    position: absolute;
+    left: 35.42%;
+    right: 35.42%;
+    top: 45.7%;
+    bottom: 33.98%;
+
+    background: #C4C4C4;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px black;
+
+}
+
+.congratsCard h1 {
+
+    padding: 20px;
+
+}

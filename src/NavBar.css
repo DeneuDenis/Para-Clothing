@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300,700,600");
+
+* {
+
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins";
+
+}
+
+.barra-superior{
+
+    background-color: #2A179E;
+    height: 55px;
+    position: absolute;
+    top: 0;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.Navtitle{
+    
+    font-size: 24px;
+    position: absolute;
+    width: 164px;
+    height: 36px;
+    left: 19px;
+    top: 8px;
+    color: white;
+
+}
+
+.fa-shopping-cart{
+
+    position: relative;
+    left: 91.25%;
+    right: 6.55%;
+    color: white;
+
+}
+
+#cartBtn {
+
+    position: relative;
+    left: 90.25%;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+#checkNav {
+
+    position: relative;
+    left: 95.37%;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+
+}
+
+.fa-bars {
+
+    position: relative;
+    left: 96.37%;
+    color: white;
+
+}
+
+.menu {
+
+    position: fixed;
+    right: 0;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #ffffff;
+    transition: all .5s;
+
+    transform: translateX(100%);
+
+}
+
+.darkenScreen {
+
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 40%;
+    display: none;
+
+}
+
+#login {
+
+    position: relative;
+    left: 10%;
+    top: 5%;
+    font-size: 20px;
+
+}
+
+#help {
+
+    position: relative;
+    left: 10%;
+    top: 5%;
+    font-size: 20px;
+
+}
