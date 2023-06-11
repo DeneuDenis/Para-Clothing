@@ -38,3 +38,8 @@ System mockups can be found on [Figma](https://www.figma.com/file/YBPxkVqP2wwhZd
 
 ## 2.2 Navigation Diagram
 ![image](https://user-images.githubusercontent.com/68250033/236710200-be3761ca-ec34-4316-a998-c028a6499881.png)
+
+## 3 How to run the website locally
+All dependencies needed are registered in package.json.
+Assuming you have all dependencies installed, to run the react app locally, all you need to is open the cmd in the directory where you downloaded all the files a run the command npm start.
+
